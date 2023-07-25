@@ -1,0 +1,49 @@
+﻿
+@using BOL;
+@{
+    ViewData["Title"] = "List All Employee";
+}
+<div>
+	<h2>All EMployees</h2>
+
+     <button type="button" onclick="location.href='/emp/addEmp'" class="btn btn-primary">Add Employee</button></>
+
+    @{
+        List<Employee> allEMp = ViewData["employees"] as List<Employee>;
+
+    <table class="table">
+        <thead class="thead-dark">
+                <tr>
+                    
+                <th scope="col">Emp id</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Department</th>
+                <th scope="col">Email</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Delete/Update</th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (Employee e in allEMp)
+            {
+                <tr>
+                        <th scope="row">@e.EmpId</th>
+                        <td>@e.FirstName</td>
+                        <td>@e.LastName</td>
+                        <td>@e.Department</td>
+                        <td>@e.Email</td>
+                        <td>@e.Salary</td>
+                        <td>
+                            <a asp-action="DeleteEmp" asp-route-empId="@e.EmpId" class="text-danger" onclick="return confirm('Are you sure you want to remove @e.FirstName?')">Delete</a>
+                            <a asp-action="UpdateEmp" asp-route-empId="@e.EmpId" class="text-primary">Update</a>
+
+                        </td>
+                       
+                </tr>
+               
+            }
+        </tbody>
+    </table>
+    }
+</div>

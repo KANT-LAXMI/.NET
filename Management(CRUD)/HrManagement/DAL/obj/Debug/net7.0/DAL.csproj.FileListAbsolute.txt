@@ -1,0 +1,15 @@
+D:\Dotnet\day9\HrManagement\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\Dotnet\day9\HrManagement\DAL\bin\Debug\net7.0\DAL.dll
+D:\Dotnet\day9\HrManagement\DAL\bin\Debug\net7.0\DAL.pdb
+D:\Dotnet\day9\HrManagement\DAL\bin\Debug\net7.0\BOL.dll
+D:\Dotnet\day9\HrManagement\DAL\bin\Debug\net7.0\BOL.pdb
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.dll
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\DAL.pdb
+D:\Dotnet\day9\HrManagement\DAL\obj\Debug\net7.0\ref\DAL.dll

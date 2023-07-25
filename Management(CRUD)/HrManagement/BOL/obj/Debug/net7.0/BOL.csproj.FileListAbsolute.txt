@@ -1,0 +1,12 @@
+D:\Dotnet\day9\HrManagement\BOL\bin\Debug\net7.0\BOL.deps.json
+D:\Dotnet\day9\HrManagement\BOL\bin\Debug\net7.0\BOL.dll
+D:\Dotnet\day9\HrManagement\BOL\bin\Debug\net7.0\BOL.pdb
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.dll
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\refint\BOL.dll
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\BOL.pdb
+D:\Dotnet\day9\HrManagement\BOL\obj\Debug\net7.0\ref\BOL.dll

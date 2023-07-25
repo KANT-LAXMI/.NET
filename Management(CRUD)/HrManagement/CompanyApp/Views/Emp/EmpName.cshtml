@@ -1,0 +1,16 @@
+﻿@using BOL
+@{
+	ViewData["Title"] = "Employee Names";
+}
+
+<h2>All Employees names</h2>
+@{
+	List<Employee> emp = ViewBag.selectedNames;
+	<ol>
+	@foreach(Employee e in emp)
+	{
+			<li> <h6><a asp-action="ShowEmpDetails" asp-route-empId="@e.EmpId" class="text-primary">@e.FirstName</a></h6> </li>
+	}
+	</ol>
+		<button type="button" onclick="location.href='/emp/allEmp'" class="btn btn-success">Dashboard</button>
+}

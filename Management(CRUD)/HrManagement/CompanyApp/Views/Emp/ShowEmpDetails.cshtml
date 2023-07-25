@@ -1,0 +1,46 @@
+﻿@using BOL;
+
+<div>
+    <h2>Employee Details</h2>
+
+
+    @{
+        Employee e = ViewBag.selectedEmpName;
+       
+         ViewData["Title"] = @e.FirstName+"_Details";
+
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Emp id</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Delete/Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <th scope="row">@e.EmpId</th>
+                        <td>@e.FirstName</td>
+                        <td>@e.LastName</td>
+                        <td>@e.Department</td>
+                        <td>@e.Email</td>
+                        <td>@e.Salary</td>
+                        <td>
+                            <a asp-action="DeleteEmp" asp-route-empId="@e.EmpId" class="text-danger" onclick="return confirm('Are you sure you want to remove @e.FirstName?')">Delete</a>
+                            <a asp-action="UpdateEmp" asp-route-empId="@e.EmpId" class="text-primary">Update</a>
+
+                        </td>
+
+                    </tr>
+
+                
+            </tbody>
+        </table>
+    }
+</div>
